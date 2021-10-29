@@ -1,8 +1,8 @@
 # E-Commerce Backend
 
-* 
+**This application is a back end for a e-commerce site. It uses Express.Js, Sequelize, and MySQL and performs basic RESTful CRUD operations. This application allows users to manipulate a database which consists of products, categories, and tags. Below is a youtube video showing the functionality of this project.**
 
-
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=3PxBaVwqOQU" target="_blank"><img src="images/ecommercepic.PNG" alt="E-Commerce Backend" width="700" height="500"/></a>
 
 
 ## Built With
@@ -11,15 +11,18 @@
 * [Node.Js](https://nodejs.org/en/)
 * [Express.Js](https://expressjs.com/)
 * [MySQL](https://www.mysql.com/)
+* [Sequelize](https://www.npmjs.com/package/sequelize)
 
 
 ## Instructions
 Steps to install application:
 
 1. Clone repository.
-2. Enter the directory with index.js and run npm install
-3. Run npm start in command line, make sure Node.JS is installed.
-4. Answer prompts
+2. Run npm install
+3. Make sure you have a .env file setup as well as MySQL installed.
+3. Run npm run seed in command line to seed the database.
+4. Run NPM Start to turn on your server
+5. Test routes/endpoints/CRUD Operations using Insomnia or Postman.
 
 
 ## Authors
